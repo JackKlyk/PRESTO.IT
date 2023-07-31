@@ -1,0 +1,165 @@
+/* ! COLOR */
+:root {
+    --light-grey: #cccccc;
+    --grey: #333333;
+    --light-orange: #f7931e;
+    --light-dark-orange: #d87a1d;
+    --orange: #f15a24;
+    --dark-orange: #ce4a21;
+    --red: #ed1c24;
+    --dark-red: #c1272d;
+    --green: #39b54a;
+    --dark-green: #009245;
+}
+
+/* ! BUTTON */
+.btn-red {
+    color: white;
+    background-color: var(--red);
+}
+.btn-red:hover {
+    color: white;
+    background-color: var(--dark-red);
+}
+
+.btn-orange {
+    color: white;
+    background-color: var(--orange);
+}
+.btn-orange:hover {
+    color: white;
+    background-color: var(--dark-orange);
+}
+
+.btn-light-orange {
+    color: white;
+    background-color: var(--light-orange);
+}
+.btn-light-orange:hover {
+    color: white;
+    background-color: var(--light-dark-orange);
+}
+
+
+.btn-green {
+    color: white;
+    background-color: var(--green);
+}
+.btn-green:hover {
+    color: white;
+    background-color: var(--dark-green);
+}
+
+
+/* ! OUTLINE BUTTON */
+
+.btn-outline-red {
+    color: var(--red) !important;
+    background-color: transparent !important;
+    border: 2px solid var(--red);
+}
+.btn-outline-red:hover {
+    color: white !important;
+    background-color: var(--dark-red) !important;
+    border-color: var(--dark-red) !important;
+}
+
+.btn-outline-orange {
+    color: var(--orange) !important;
+    background-color: transparent !important;
+    border: 2px solid var(--orange);
+}
+.btn-outline-orange:hover {
+    color: white !important;
+    background-color: var(--dark-orange) !important;
+    border-color: var(--dark-orange) !important;
+}
+
+.btn-outline-light-orange {
+    color: var(--light-orange) !important;
+    background-color: transparent !important;
+    border: 2px solid var(--light-orange);
+}
+.btn-outline-light-orange:hover {
+    color: white !important;
+    background-color: var(--light-dark-orange) !important;
+    border-color: var(--light-dark-orange) !important;
+}
+
+
+.btn-outline-green {
+    color: var(--green) !important;
+    background-color: transparent !important;
+    border: 1px solid var(--green);
+}
+.btn-outline-green:hover {
+    color: white !important;
+    background-color: var(--dark-green) !important;
+    border-color: var(--dark-green) !important;
+}
+
+
+/* ! TEXT */
+.capitalize {
+    text-transform: capitalize;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+/* ! IMG */
+.position-center {
+    background-position: center;
+}
+
+.bg-zona-revisore {
+    background-image: url(../../public/img/bg-zona-revisore.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ! CARD */
+.fit-content {
+    width: fit-content;
+}
+
+
+/* ! HEIGHT - WIDTH */
+.min-vh-84 {
+    min-height: 83.4vh;
+}
+
+.max-vh-3 {
+    max-height: 3vh;
+    max-width: 3vh;
+}
+
+.max-vh-4 {
+    max-height: 4vh;
+    max-width: 4vh;
+}
+
+.max-vh-5 {
+    max-height: 5vh;
+    max-width: 5vh;
+}
+
+.w-125 {
+    width: 125%;
+}
+
+/* ! POSITION */
+
+.start-25 {
+    left: 25%;
+}
+
+.end-15 {
+    right: 15%;
+}
+
+.bottom-75 {
+    bottom: 75%;
+}

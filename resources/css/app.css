@@ -1,0 +1,48 @@
+@import 'bootstrap';
+@import 'bootstrap-icons';
+@import './helper.css';
+@import './404.css';
+@import '../../node_modules/flag-icon-css/css/flag-icons.min.css';
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* ! NAVBAR */
+
+#hamburger-list, #hamburger-list:focus, #hamburger-list:focus-visible{
+    outline: none;
+    box-shadow: none;
+    font-size: 2.5rem;
+}
+
+.btn-close:focus, .btn-close:focus-visible {
+    outline: none;
+    box-shadow: none;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.dropdown-menu.show {
+    display: block !important;
+}
+
+/* ! LOGIN */
+
+.text-divider::before, .text-divider::after {
+  content: '';
+  height: 1px;
+  background-color: silver;
+  flex-grow: 1;
+} 
+
+.img-preview {
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-size: cover;
+}
